@@ -1,0 +1,99 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48a752667d.js" crossorigin="anonymous"></script>
+    <title>PDF Editor</title>
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 8rem;">
+    <a class="navbar-brand " href="#" style="font-size: 3.5rem;margin-left: 10%;"><i class="fas fa-home"></i> OCR and PDF📝</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="  font-family: 'Playfair Display', sans-serif;  font-size: 2.5rem;  line-height: 1.5;  font-weight: bold; background-color: #343A40;">
+      <ul class="navbar-nav ml-auto" style="font-size: 1.15rem;margin-right: 17%; ">
+        <li class="nav-item ">
+          <a class="nav-link mr-5" href="/home" style="color:white ;">Products</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link mr-5" href="/team" style="color:white ;">About Us</a>
+        </li>
+   
+      </ul>
+  
+    </div>
+  </nav>
+  <div class="row justify-content-center">
+    <div class="col-2 col-lg-2">
+    </div>
+    <div class="col-10 col-lg-5 mt-lg-5 pt-lg-5" style="  font-family: 'Playfair Display', sans-serif;  font-size: 3.25rem;  line-height: 1.5;  font-weight: bold;">
+
+        <div class="mt-lg-5">PDF to Word</div>
+        <div class="col-2 d-lg-none"></div>
+        <a  href="/convert" class="col-9 col-lg-5 btn btn-outline-secondary btn-lg mt-5 text-dark"><i class="fas fa-tools"></i>Continue</a>
+    </div>
+    <div class="col-9 col-lg-5 mt-5 pt-lg-5">
+      <img class="mt-lg-3" style="width: 90%;" alt="image ocr"src="{{ url_for('static', filename='images/pword.jpg') }}">
+  </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-2 col-lg-2">
+    </div>
+    <div class="col-10 col-lg-5 mt-lg-5 pt-lg-5" style="  font-family: 'Playfair Display', sans-serif;  font-size: 3.25rem;  line-height: 1.5;  font-weight: bold;">
+
+        <div class="mt-lg-5">PDF Page Remover</div>
+        <div class="col-2 d-lg-none"></div>
+        <a  href="/page_dele" class="col-9 col-lg-5 btn btn-outline-secondary btn-lg mt-5 text-dark"><i class="fas fa-tools"></i>Continue</a>
+    </div>
+    <div class="col-9 col-lg-5 mt-5 pt-lg-5">
+      <img class="mt-lg-3" style="width: 90%;" alt="image ocr"src="{{ url_for('static', filename='images/pdel.png') }}">
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-2 col-lg-2">
+    </div>
+    <div class="col-10 col-lg-5 mt-lg-5 pt-lg-5" style="  font-family: 'Playfair Display', sans-serif;  font-size: 3.25rem;  line-height: 1.5;  font-weight: bold;">
+
+        <div class="mt-lg-5">PDF Page Reorder</div>
+        <div class="col-2 d-lg-none"></div>
+        <a  href="/reorder" class="col-9 col-lg-5 btn btn-outline-secondary btn-lg mt-5 text-dark"><i class="fas fa-tools"></i>Continue</a>
+    </div>
+    <div class="col-9 col-lg-5 mt-5 pt-lg-5">
+      <img class="mt-lg-3" style="width: 90%;" alt="image ocr"src="{{ url_for('static', filename='images/preorder.jpg') }}">
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-2 col-lg-2">
+    </div>
+    <div class="col-10 col-lg-5 mt-lg-5 pt-lg-5" style="  font-family: 'Playfair Display', sans-serif;  font-size: 3.25rem;  line-height: 1.5;  font-weight: bold;">
+
+        <div class="mt-lg-5">PDF Merger</div>
+        <div class="col-2 d-lg-none"></div>
+        <a  href="/merge" class="col-9 col-lg-5 btn btn-outline-secondary btn-lg mt-5 text-dark"><i class="fas fa-tools"></i>Continue</a>
+    </div>
+    <div class="col-9 col-lg-5 mt-5 pt-lg-5">
+      <img class="mt-lg-3" style="width: 90%;" alt="image ocr"src="{{ url_for('static', filename='images/preorder.jpg') }}">
+  </div>
+
+  
+
+  <div style='height: 12.75rem;'></div>
+  
+              <!-- Footer -->
+              <footer id="footer" style='background-color:#343A40; color:white; width:100%;margin-top:2%; text-align:center ;'>
+                OCR Web Application
+                 </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>
+<style>
+    html, body {
+    background-color: rgb(119, 255, 255);
+    max-width: 200%;
+    overflow-x: hidden;
+}
+</style>
